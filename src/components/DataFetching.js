@@ -25,9 +25,9 @@ useEffect(() => {
         setConfirmed(res.data.Global.TotalConfirmed);
         setDeaths(res.data.Global.TotalDeaths);
         setRecovered(res.data.Global.TotalRecovered);
-        setIndiaConfirmed(res.data.Countries[100].TotalConfirmed);
-        setIndiaDeaths(res.data.Countries[100].TotalDeaths);
-        setIndiaRecovered(res.data.Countries[100].TotalRecovered);
+        setIndiaConfirmed(res.data.Countries[101].TotalConfirmed);
+        setIndiaDeaths(res.data.Countries[101].TotalDeaths);
+        setIndiaRecovered(res.data.Countries[101].TotalRecovered);
     })
     .catch(err =>{
         console.log(err)
