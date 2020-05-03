@@ -1,68 +1,122 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a>
+        <img src="https://img.icons8.com/nolan/96/coronavirus.png"/>
+  </a>
+</p>
+<h1 align="center">
+  Covid-19 :  React Application (Stats for Corona-virus)
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="https://github.com/Uyadav207/Covid-19/blob/gh-pages/LICENSE.md">
+   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="weatherly-react-app: Weatherly is released under the MIT license." />
+   </a>
+ <a href="https://github.com/Uyadav207/Covid-19/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" /></a>
+  <a href="https://github.com/Uyadav207"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Uyadav207?label=Follow&style=social"></a>
+    
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+Covid-19 : (The Pandemic) is causing a Great chaos around the world and People are not aware about the consequences correctly. So as an initiative, I has Created a Website Called [RAKSHA-CORONA](https://uyadav207.github.io/Covid-19) (Using Facebook's REACT Framework) for spreading awareness about the Novel Corona-Virus (COVID-19). The API is used for the Correct Stats of recovery | Confirmed | Death | Cases
+india and as well as around the Globe. The website carries WHO instructions and as well as Link to the [AROGYASETU-APP](https://www.mygov.in/aarogya-setu-app/). An Initiative by Indian-Government.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Fork the [Repository](https://github.com/Uyadav207/Covid-19) ans star it as well. ⭐
+* Now Head On to your repository section and download a zip or Open on Desktop **Recommended** (Open On Desktop).
+* Or Follow the Step : Copy The code Below 👇👇👇👇
+ * Open a Terminal
+```
+git clone <FileName.git>
+cd Covid-19
+code . / atom .
+```
+* use `code . ` for [VsCode](https://code.visualstudio.com/)
+* use `atom .` for [Atom](https://atom.io/)
 
-### `yarn test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Node.js should be installed in your local Machines
+* Requires [ReactJS](https://reactjs.org/) <img src="https://img.icons8.com/color/144/000000/react-native.png" alt="Reactjs" width="20px">
+* The Geek forking should know how to use routing and API's Fetching ? ... If not Head On to [Fetching Reacy API's](https://www.youtube.com/watch?v=T3Px88x_PsA)<img src="https://img.icons8.com/color/144/000000/react-native.png" alt="Reactjs" width="30px">
+* Hands on to axios Function from npm Libraries..
+* The Geek Requesting merge should Document the Modifications in [Modifications.md](MODIFICATION.md)
 
-### `yarn build`
+### Installing
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow the Steps Below to Install the Packages Required.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+npm install 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+if any error occurs : Do install the Packages seperately like Below:
 
-### `yarn eject`
+```
+npm install CountUp chart.js
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+Wait Until installation is Finished..........Now follow the steps below.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Using VsCode
+```
+code .
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Using Atom
+```
+atom .
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Running the tests
 
-## Learn More
+* To run the test on Your Local Environment.
+```
+npm start
+```
+or
+```
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Break down into end to end tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Now to Preview what's in it follow the steps below:
+* Head on to any Browser **Chrome RECOMMENDED**
+ * go to :
+ ```
+ localhost:3000  
+```
+Now You are Good to go 😜😜😍😍👌👌👌👌👌👌 You did a Great Job Folk..and eventually u Learned Bash 👨‍💻👨‍💻
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Deployment
 
-### Analyzing the Bundle Size
+For Deployment Purpose [Github Pages](https://pages.github.com/) is Used. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Built With
 
-### Making a Progressive Web App
+* [ReactJS](https://reactjs.org/) - The web framework used for Front-End
+* [Githug Pages](https://pages.github.com/) - Deployment
+* [Chart.js](https://www.chartjs.org/)- For the Animated Statical Charts (pie | Bar | Line. etc)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Author
 
-### Advanced Configuration
+* **Utkarsh Yadav** - *Github student developer and a MERN developer* - [@Uyadav207](https://github.com/Uyadav207)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-### Deployment
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-### `yarn build` fails to minify
+## Acknowledgments
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [Covid-19 stats API](https://api.covid19api.com/summary)
+* [Deploy Github Pages](https://www.youtube.com/watch?v=F8s4Ng-re0E)👈👈😍
+* [Deployment for Public View](herokuapp)
+
+## ScreenShots 
+
+<img src="https://github.com/Uyadav207/Covid-19/blob/gh-pages/covid-19img.png"/>
+<img src="https://github.com/Uyadav207/Covid-19/blob/gh-pages/covid.png" />
