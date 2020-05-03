@@ -116,7 +116,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [Deploy Github Pages](https://www.youtube.com/watch?v=F8s4Ng-re0E)👈👈😍
 * [Deployment for Public View](herokuapp)
 
-## ScreenShots 
-
-<img src="https://github.com/Uyadav207/Covid-19/blob/gh-pages/covid-19img.png"/>
-<img src="https://github.com/Uyadav207/Covid-19/blob/gh-pages/covid.png" />
