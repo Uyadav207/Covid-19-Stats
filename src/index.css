@@ -8,16 +8,21 @@
 
 body {
   font-family: 'montseratt', sans-serif;
-  background-color: coral;
+  background-color: #95D600;
 
 }
 
-.app {
+/* .app {
   
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
   
+} */
+
+
+.App {
+  padding: 25px;
 }
 
 h2 {
@@ -33,14 +38,85 @@ h2 {
 
 main {
   min-height: 100vh;
-
+  padding:25px;
 }
+.spacer {
+  margin-left: 50px;
+  color: white;
+}
+
+.topnav {
+  padding: 10px;
+  background-color: #ddd;
+  color: black;
+}
+
 .date {
   color: #000000;
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
   text-align: center ;
+}
+
+.banner {
+  padding: 30px;
+}
+.banner-img {
+  padding: 25px;
+
+}
+.ban-img1{
+  border-radius: 50%;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.row1{
+  text-align:center;
+  margin:0 auto;
+}
+.text{
+  padding: 21px;
+  justify-content: center;
+}
+.row1 .col-md-3{
+ display:inline-block;
+ vertical-align: middle;
+ float: none;
+}
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+
+color: #313131;
+font-size: 20px;
+
+transition: 0.4s ease;
+
+}
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 .weather-box {
   text-align: center;
@@ -207,8 +283,9 @@ h3 {
   color: red !important;
 }
 .topnav {
-  background-color: #333;
+  background-color: #0A0A0A;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -223,10 +300,7 @@ h3 {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+
 
 /* Add a color to the active/current link */
 .topnav a.active {
