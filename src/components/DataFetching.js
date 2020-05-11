@@ -20,12 +20,12 @@ const [Recovered, setRecovered] = useState([])
 
 useEffect(() => {
   axios
-    .get("https://api.covid19api.com/summary")
+    .get("https://covid19.mathdro.id/api")
     .then(res => {
-        console.log(res.data);
-        setConfirmed(res.data.Global.TotalConfirmed);
-        setDeaths(res.data.Global.TotalDeaths);
-        setRecovered(res.data.Global.TotalRecovered);
+        console.log(res.data.con);
+        setConfirmed(res.data.confirmed.value);
+        setDeaths(res.data.deaths.value);
+        setRecovered(res.data.recovered.value);
     })
     .catch(err =>{
         console.log(err)
