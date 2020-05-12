@@ -34,7 +34,7 @@ useEffect(() => {
 
 const [loading, setLoading] = useState(true);
 const [query, setQuery] = useState([""]);
-const [country, setCountry] = useState()
+const [countryName, setCountry] = useState()
 const [IndiaConfirmed, setIndiaConfirmed] = useState([])
 const [IndiaDeaths, setIndiaDeaths] = useState([])
 const [IndiaRecovered, setIndiaRecovered] = useState([])
@@ -46,13 +46,14 @@ const search = evt=>{
     .then(res => res.json())
     .then(result => 
       {
-      setCountry(result.data);
+      
+      setCountry(query);
       setIndiaConfirmed(result.confirmed.value);
       setIndiaDeaths(result.deaths.value);
       setIndiaRecovered(result.recovered.value);
       setQuery('');  
       setLoading(false);
-      console.log(result);
+      console.log(countryName);
   })
   .catch(err =>{
             console.log(err)
@@ -65,7 +66,7 @@ const search = evt=>{
 const dataIndia= {
   labels: ["Confirmed","Deaths","Recovered"],
   datasets: [{
-  label: "INDIAN REPORT",
+  label: countryName,
   backgroundColor: 'black',
   borderColor: 'white',
   borderWidth: 2,
@@ -193,10 +194,7 @@ return (
        </div>
        <div className="weather-box">
          
-       <div className="weather">
-         <h2>{country}         
-         </h2>
-         </div>
+     
        <div class="search-bar row1">
        <div className = "search-box">
           <input 
