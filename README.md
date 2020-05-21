@@ -48,13 +48,11 @@ Follow the Steps Below to Install the Packages Required.
 
 ```
 npm install 
-
 ```
 if any error occurs : Do install the Packages seperately like Below:
 
 ```
 npm install CountUp chart.js
-
 ```
 Wait Until installation is Finished..........Now follow the steps below.
 
