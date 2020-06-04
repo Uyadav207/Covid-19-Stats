@@ -66,6 +66,40 @@ code .
 atom .
 ```
 
+   
+CONFIGURATION
+-------------
+### Dependencies
+
+```
+  "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "jquery": "^3.5.0",
+    "react": "^16.13.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "react-search-box": "^2.0.2",
+    "serve": "^11.3.0"
+```
+### Dev-Dependencies
+
+```
+  "react-chartjs-2": "^2.9.0"
+```
+
+Security
+---------
+
+- Visit[SECURITY.md](https://github.com/Uyadav207/Amigos/blob/master/SECURITY.md)
+
+
 ## Running the tests
 
 * To run the test on Your Local Environment.
@@ -114,3 +148,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [Deploy Github Pages](https://www.youtube.com/watch?v=F8s4Ng-re0E)👈👈😍
 * [Deployment for Public View](herokuapp)
 
+FAQ
+---
+
+- For Queryies Raise Issues [Here](https://github.com/Uyadav207/Covid-19-Stats/issues)
+   
