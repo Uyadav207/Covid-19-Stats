@@ -20,7 +20,7 @@
 Covid-19 : (The Pandemic) is causing a Great chaos around the world and People are not aware about the consequences correctly. So as an initiative, I has Created a Website Called [Covid19-COunts](https://covid19-counts.netlify.app) (Using Facebook's REACT Framework) for spreading awareness about the Novel Corona-Virus (COVID-19). The API is used for the Correct Stats of recovery | Confirmed | Death | Cases
 india and as well as around the Globe. The website carries WHO instructions and as well as Link to the [AROGYASETU-APP](https://www.mygov.in/aarogya-setu-app/). An Initiative by Indian-Government.
 
-## Getting Started
+## 🚀 Getting Started
 
 * Fork the [Repository](https://github.com/Uyadav207/Covid-19) ans star it as well. ⭐
 * Now Head On to your repository section and download a zip or Open on Desktop **Recommended** (Open On Desktop).
@@ -34,7 +34,7 @@ code . / atom .
 * use `code . ` for [VsCode](https://code.visualstudio.com/)
 * use `atom .` for [Atom](https://atom.io/)
 
-### Prerequisites
+### 👷‍♀️ Prerequisites
 
 * Node.js should be installed in your local Machines
 * Requires [ReactJS](https://reactjs.org/) <img src="https://img.icons8.com/color/144/000000/react-native.png" alt="Reactjs" width="20px">
@@ -65,9 +65,8 @@ code .
 ```
 atom .
 ```
-
    
-CONFIGURATION
+ 🚧 CONFIGURATION
 -------------
 ### Dependencies
 
@@ -94,10 +93,10 @@ CONFIGURATION
   "react-chartjs-2": "^2.9.0"
 ```
 
-Security
+🔐 Security
 ---------
 
-- Visit[SECURITY.md](https://github.com/Uyadav207/Amigos/blob/master/SECURITY.md)
+- Visit[SECURITY.md](https://github.com/Uyadav207/Covid-19-Stats/blob/master/SECURITY.md)
 
 
 ## Running the tests
@@ -119,10 +118,8 @@ Now to Preview what's in it follow the steps below:
  ```
  localhost:3000  
 ```
-Now You are Good to go 😜😜😍😍👌👌👌👌👌👌 You did a Great Job Folk..and eventually u Learned Bash 👨‍💻👨‍💻
 
-
-## Deployment
+## 🚀 Deployment
 
 For Deployment Purpose [Github Pages](https://pages.github.com/) is Used. 
 
@@ -132,7 +129,7 @@ For Deployment Purpose [Github Pages](https://pages.github.com/) is Used.
 * [Githug Pages](https://pages.github.com/) - Deployment
 * [Chart.js](https://www.chartjs.org/)- For the Animated Statical Charts (pie | Bar | Line. etc)
 
-## Author
+## 😎 Author
 
 * **Utkarsh Yadav** - *Github student developer and a MERN developer* - [@Uyadav207](https://github.com/Uyadav207)
 
@@ -142,10 +139,10 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## 🤝 Acknowledgments
 
 * [Covid-19 stats API](https://api.covid19api.com/summary)
-* [Deploy Github Pages](https://www.youtube.com/watch?v=F8s4Ng-re0E)👈👈😍
+* [Deploy Github Pages](https://www.youtube.com/watch?v=F8s4Ng-re0E)
 * [Deployment for Public View](herokuapp)
 
 FAQ
