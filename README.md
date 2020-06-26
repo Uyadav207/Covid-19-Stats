@@ -16,6 +16,7 @@
     
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0e86fda1-464b-48b9-92f8-8ff1c0be7ec6/deploy-status)](https://app.netlify.com/sites/covid19-counts/deploys)
 
 Covid-19 : (The Pandemic) is causing a Great chaos around the world and People are not aware about the consequences correctly. So as an initiative, I has Created a Website Called [Covid19-COunts](https://covid19-counts.netlify.app) (Using Facebook's REACT Framework) for spreading awareness about the Novel Corona-Virus (COVID-19). The API is used for the Correct Stats of recovery | Confirmed | Death | Cases
 india and as well as around the Globe. The website carries WHO instructions and as well as Link to the [AROGYASETU-APP](https://www.mygov.in/aarogya-setu-app/). An Initiative by Indian-Government.
