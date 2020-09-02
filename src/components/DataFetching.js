@@ -5,8 +5,8 @@ import CountUp from 'react-countup';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faUsers, faBed, faSmileWink } from "@fortawesome/free-solid-svg-icons";
 import Header from "./Header"
-import { Bar, Line, Doughnut} from 'react-chartjs-2';
-import ReactSearchBox from 'react-search-box'
+import {  Line} from 'react-chartjs-2';
+
 
 
 
