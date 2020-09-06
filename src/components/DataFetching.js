@@ -32,7 +32,6 @@ useEffect(() => {
     })
 }, [])
 
-const [loading, setLoading] = useState(true);
 const [query, setQuery] = useState([""]);
 const [countryName, setCountry] = useState()
 const [IndiaConfirmed, setIndiaConfirmed] = useState([])
@@ -52,7 +51,6 @@ const search = evt=>{
       setIndiaDeaths(result.deaths.value);
       setIndiaRecovered(result.recovered.value);
       setQuery('');  
-      setLoading(false);
       console.log(countryName);
   })
   .catch(err =>{
@@ -135,7 +133,7 @@ return (
          <div className="temp"> 
          <div className="weather-box">
          <div>
-         <img src="https://img.icons8.com/officel/80/000000/globe.png"/>
+         <img src="https://img.icons8.com/officel/80/000000/globe.png" alt="Icons"/>
          </div>
          <div className="date">
      </div>
